@@ -138,7 +138,7 @@ if not args.csv and not args.gradescope:
     for _, name, value in thresholds:
         if overall >= float(value):
             snu = name[1:-1]
-    print("%81s = %s" % ("SNU Score", snu))
+    print("%81s = %s" % ("Completeness SNU Score", snu))
     print("=" * 100)
     print()
 

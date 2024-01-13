@@ -282,7 +282,11 @@ def test_has_exactly_one(cards_on_hand, cards_to_match, expected):
     (need8, [1000, 20], hw3.ONE_SCORE),
     (need8, [17, 25, 38], hw3.ONE_SCORE),        
     (hand4, need9, hw3.ZERO_SCORE),
-    (hand4, need7, hw3.SOME_SCORE)
+    (hand4, need7, hw3.SOME_SCORE),
+
+    ([5, 7, 3, 5, 2, 1, 7, 7, 10], [4, 10, 0], hw3.ONE_SCORE),
+    ([5, 7, 3, 5, 2, 1, 7, 7, 10, 4], [4, 10, 0], hw3.SOME_SCORE),    
+
 ])
 def test_compute_score(cards_on_hand, cards_to_match, expected):
     """

@@ -106,7 +106,7 @@ def test_cut_deck(deck, expected):
                           ([(2, False), (3, True), (7, True), (2, True), (5, False)], [(2, True), (3, False), (7, False), (2, False), (5, True)])])
 def test_flip_color(cards, expected):
 
-    recreate_msg = helpers.gen_recreate_msg(MODULE, "flip_color", cards,)
+    recreate_msg = helpers.gen_recreate_commands(MODULE, [f"lst = {cards}", f"{MODULE}.flip_color(lst)"])
 
     try:
         hw4.flip_color(cards)
@@ -201,7 +201,7 @@ def test_split_by_color(cards, expected):
                           ([(2, False), (3, True), (4, False), (2, True), (9, True)], (7, True), [(2, False), (3, True), (4, False), (2, True), (9, True)])])
 def test_lose_points(cards, target, expected):
 
-    recreate_msg = helpers.gen_recreate_msg(MODULE, "lose_points", cards, target,)
+    recreate_msg = helpers.gen_recreate_commands(MODULE, [f"lst = {cards}", f"{MODULE}.lose_points(lst, {target})"])
 
     try:
         hw4.lose_points(cards, target)

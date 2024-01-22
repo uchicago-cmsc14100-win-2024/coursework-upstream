@@ -5,6 +5,32 @@ Common helper functions for autograders.
 import math
 import pytest
 
+def gen_recreate_commands(module, commands):
+    '''
+    Generate a message that can be used to recreate a test in ipython3
+    that rely on a series of commands to get the test in it's right state.
+
+    Parameters
+        - module: the name of the module containing the function
+        - function: the name of the function
+        - pre_steps a list of statements that are needed to run before the test
+        - params: the parameters passed to the function
+
+    Returns
+        - a string containing a message that can be used to recreate the test
+
+    Notes
+        This function was selected over the other variants because it uses
+        f-strings, which are easier to read and write than the alternatives.
+    '''
+    commands_tabbed = [f"  {p}" if not p.startswith("  ") else f"{p}" for p in commands]
+    commands_tabbed_str = "\n".join(commands_tabbed)
+    recreate_msg = (f"\n\nTo recreate this test in ipython3, run:\n"
+                    f"  import {module}\n"
+                    f"{commands_tabbed_str}\n")
+
+    return recreate_msg
+
 
 def gen_recreate_msg(module, function, *params):
     '''
@@ -216,7 +242,7 @@ def check_expected_none(actual, recreate_msg=None):
     Notes
         No other variants were present.
     '''
-    msg = "The function was expected to return None, but returned a value other than None."
+    msg = "The function returned a value other than the expected value: None."
     if recreate_msg is not None:
         msg += "\n" + recreate_msg
 

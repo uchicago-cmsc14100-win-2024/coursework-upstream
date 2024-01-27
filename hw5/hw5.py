@@ -67,22 +67,23 @@ def combine_using_mask(image1, image2, mask):
 
     Inputs:
         image1 [List[List[Tuple[int, int, int]]]]: the first image
-        image2 [List[List[Tuple[int, int, int]]]]: the second image    
+        image2 [List[List[Tuple[int, int, int]]]]: the second image
 
     Returns [List[List[Tuple[int, int, int]]]]: the combined image.
     """
     ### TODO: replace pass with your code.
     pass
-    
+
 
 # Exercise 4
 def flip_region_in_mask(mask, region):
     """
     Flip the mask locations in a region in-place.
-    
+
     Inputs:
         img [List[List[Tuple(int, int, int)]]: an image
-        region [Tuple[Tuple[int, int], Tuple[int, int]]]: a region defined using two locations.
+        region [Tuple[Tuple[int, int], Tuple[int, int]]]: a region defined
+          using two locations.
     """
     ### TODO: replace pass with your code
 
@@ -103,7 +104,7 @@ def loc_radius_to_region(grid, loc, radius):
         two-location representation of the region.
 
     """
-    ### TODO: replace pass with your code    
+    ### TODO: replace pass with your code
     pass
 
 # Exercise 6
@@ -116,9 +117,10 @@ def gen_green_screen_mask(img, green_screen_color, radius):
 
     Inputs:
         img [List[List[Tuple[int, int, int]]]]: an RGB image
-        green_screen_color [Tuple[int, int, int]]: the RGB color of the green screen
+        green_screen_color [Tuple[int, int, int]]: the RGB color of the
+          green screen
         radius [int]: the radius defining a region.
-        
+
     Returns [List[List[bool]]: a mask where cells that close to the
       green screen colors and mostly near cells with colors close to
       the green screen color are True and all other cells are False.
@@ -126,4 +128,3 @@ def gen_green_screen_mask(img, green_screen_color, radius):
     """
     ### TODO: replace pass with your code
     pass
-

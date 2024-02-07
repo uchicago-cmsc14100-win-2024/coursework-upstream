@@ -1,0 +1,50 @@
+[
+    [
+        {
+            "ID": "1001",
+            "Year": "2013",
+            "State": "IL",
+            "Shape": "disk",
+            "Duration": 10,
+            "Latitude": 41.789,
+            "Longitude": -87.599
+        },
+        "Sighting 1001: disk object, 10 seconds"
+    ],
+    [
+        {
+            "ID": "1002",
+            "Year": "2013",
+            "State": "WI",
+            "Shape": "sphere",
+            "Duration": 5,
+            "Latitude": 43.417,
+            "Longitude": -89.725
+        },
+        "Sighting 1002: sphere object, 5 seconds"
+    ],
+    [
+        {
+            "ID": "1003",
+            "Year": "2014",
+            "State": "IL",
+            "Shape": "disk",
+            "Duration": 600,
+            "Latitude": 41.906,
+            "Longitude": -87.699
+        },
+        "Sighting 1003: disk object, 600 seconds"
+    ],
+    [
+        {
+            "ID": "1004",
+            "Year": "2016",
+            "State": "OH",
+            "Shape": "triangle",
+            "Duration": 60,
+            "Latitude": 41.499,
+            "Longitude": -81.694
+        },
+        "Sighting 1004: triangle object, 60 seconds"
+    ]
+]

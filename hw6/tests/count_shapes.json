@@ -1,0 +1,212 @@
+[
+    [
+        "tiny",
+        [
+            {
+                "ID": "1001",
+                "Year": "2013",
+                "State": "IL",
+                "Shape": "disk",
+                "Duration": 10,
+                "Latitude": 41.789,
+                "Longitude": -87.599
+            },
+            {
+                "ID": "1002",
+                "Year": "2013",
+                "State": "WI",
+                "Shape": "sphere",
+                "Duration": 5,
+                "Latitude": 43.417,
+                "Longitude": -89.725
+            },
+            {
+                "ID": "1003",
+                "Year": "2014",
+                "State": "IL",
+                "Shape": "disk",
+                "Duration": 600,
+                "Latitude": 41.906,
+                "Longitude": -87.699
+            },
+            {
+                "ID": "1004",
+                "Year": "2016",
+                "State": "OH",
+                "Shape": "triangle",
+                "Duration": 60,
+                "Latitude": 41.499,
+                "Longitude": -81.694
+            }
+        ],
+        {
+            "disk": 2,
+            "sphere": 1,
+            "triangle": 1
+        }
+    ],
+    [
+        "test1",
+        [
+            {
+                "ID": "0",
+                "Year": "1997",
+                "State": "NV",
+                "Shape": "oval",
+                "Duration": 1,
+                "Latitude": 36.169,
+                "Longitude": -115.139
+            },
+            {
+                "ID": "1",
+                "Year": "1999",
+                "State": "OR",
+                "Shape": "oval",
+                "Duration": 1,
+                "Latitude": 45.719,
+                "Longitude": -123.929
+            },
+            {
+                "ID": "2",
+                "Year": "2000",
+                "State": "GA",
+                "Shape": "oval",
+                "Duration": 2,
+                "Latitude": 34.262,
+                "Longitude": -84.521
+            },
+            {
+                "ID": "3",
+                "Year": "1998",
+                "State": "SD",
+                "Shape": "oval",
+                "Duration": 2,
+                "Latitude": 43.829,
+                "Longitude": -102.176
+            },
+            {
+                "ID": "4",
+                "Year": "2001",
+                "State": "AR",
+                "Shape": "sphere",
+                "Duration": 1,
+                "Latitude": 34.746,
+                "Longitude": -92.289
+            }
+        ],
+        {
+            "oval": 4,
+            "sphere": 1
+        }
+    ],
+    [
+        "test2",
+        [
+            {
+                "ID": "1020",
+                "Year": "1953",
+                "State": "NV",
+                "Shape": "circle",
+                "Duration": 100,
+                "Latitude": 36.169,
+                "Longitude": -115.139
+            },
+            {
+                "ID": "2030",
+                "Year": "1953",
+                "State": "OR",
+                "Shape": "disk",
+                "Duration": 110,
+                "Latitude": 45.719,
+                "Longitude": -123.929
+            },
+            {
+                "ID": "3040",
+                "Year": "1953",
+                "State": "GA",
+                "Shape": "circle",
+                "Duration": 95,
+                "Latitude": 34.262,
+                "Longitude": -84.521
+            },
+            {
+                "ID": "4050",
+                "Year": "1953",
+                "State": "SD",
+                "Shape": "disk",
+                "Duration": 90,
+                "Latitude": 43.829,
+                "Longitude": -102.176
+            },
+            {
+                "ID": "5060",
+                "Year": "1953",
+                "State": "AR",
+                "Shape": "circle",
+                "Duration": 115,
+                "Latitude": 34.746,
+                "Longitude": -92.289
+            }
+        ],
+        {
+            "circle": 3,
+            "disk": 2
+        }
+    ],
+    [
+        "test3",
+        [
+            {
+                "ID": "1198",
+                "Year": "1986",
+                "State": "IL",
+                "Shape": "circle",
+                "Duration": 24,
+                "Latitude": 41.906,
+                "Longitude": -87.701
+            },
+            {
+                "ID": "1199",
+                "Year": "1983",
+                "State": "IL",
+                "Shape": "disk",
+                "Duration": 30,
+                "Latitude": 41.792,
+                "Longitude": -87.581
+            },
+            {
+                "ID": "1200",
+                "Year": "1986",
+                "State": "IL",
+                "Shape": "sphere",
+                "Duration": 120,
+                "Latitude": 41.796,
+                "Longitude": -87.576
+            },
+            {
+                "ID": "1201",
+                "Year": "1986",
+                "State": "IL",
+                "Shape": "triangle",
+                "Duration": 66,
+                "Latitude": 41.948,
+                "Longitude": -87.654
+            },
+            {
+                "ID": "1202",
+                "Year": "1983",
+                "State": "IL",
+                "Shape": "sphere",
+                "Duration": 75,
+                "Latitude": 41.955,
+                "Longitude": -87.66
+            }
+        ],
+        {
+            "circle": 1,
+            "disk": 1,
+            "sphere": 2,
+            "triangle": 1
+        }
+    ]
+]

@@ -1,0 +1,5 @@
+ID,Year,State,Shape,Duration,Latitude,Longitude
+1001,2013,IL,disk,10,41.789,-87.599
+1002,2013,WI,sphere,5,43.417,-89.725
+1003,2014,IL,disk,600,41.906,-87.699
+1004,2016,OH,triangle,60,41.499,-81.694

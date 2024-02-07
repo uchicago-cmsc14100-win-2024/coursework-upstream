@@ -1,0 +1,6 @@
+ID,Year,State,Shape,Duration,Latitude,Longitude
+1198,1986,IL,circle,24,41.906,-87.701
+1199,1983,IL,disk,30,41.792,-87.581
+1200,1986,IL,sphere,120,41.796,-87.576
+1201,1986,IL,triangle,66,41.948,-87.654
+1202,1983,IL,sphere,75,41.955,-87.66

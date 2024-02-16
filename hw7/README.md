@@ -8,7 +8,7 @@ images/: Sample images for you to use in testing.
 
 tests/: Sample images used by the tests. 
 
-board_helpers.py: Helper functions for reading and writing images from files. Do NOT modify this file.
+grid_helpers.py: Helper functions for reading and writing images from files. Do NOT modify this file.
 
 test_hw7.py: Test code for HW #7.  Do NOT modify this file.
 

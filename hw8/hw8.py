@@ -92,7 +92,7 @@ class Doll:
 
         """
         # TODO: your code here
-        pass
+        raise NotImplementedError
 
 
 
@@ -128,7 +128,7 @@ def find_path(p1, p2):
       None otherwise.
     """
     # TODO: complete this function
-    pass
+    raise NotImplementedError
 
 
 # Exercise 3
@@ -142,7 +142,7 @@ def neg_leaves(t):
     Returns [int]: the number of leaves with negative values.
     """
     # TODO: complete this function
-    
+    raise NotImplementedError    
         
 # Exercise 4
 def val_counts(N, t):
@@ -159,7 +159,7 @@ def val_counts(N, t):
       the number of times the value i occurred in the tree.
     """
     # TODO: complete this function
-    pass
+    raise NotImplementedError
 
 
 # Exercise 5
@@ -178,7 +178,7 @@ def count_less_than_paths(t, target):
     """
     assert target >= 0
     # TODO: complete this function
-    
+    raise NotImplementedError    
 
 # Exercise 6
 def find_over_the_top_nodes(t, target):
@@ -195,7 +195,7 @@ def find_over_the_top_nodes(t, target):
     """
     assert target >= 0
     # TODO: complete this function
-
+    raise NotImplementedError
 
 # Exercise 7
 def find_less_than_paths(t, target):
@@ -213,5 +213,6 @@ def find_less_than_paths(t, target):
     """
     assert target >= 0
     # TODO: complete this function
+    raise NotImplementedError
 
 
